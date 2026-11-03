@@ -1,0 +1,5 @@
+project: savantenvs/flycast
+target: fuzz_cdi
+cmds:
+  - cmd: /mayhem/fuzz_cdi
+    libfuzzer: true

@@ -1,0 +1,5 @@
+#include <stdint.h>
+__attribute__((weak)) void __sanitizer_cov_trace_pc_guard_init(uint32_t *start, uint32_t *stop) {}
+__attribute__((weak)) void __sanitizer_cov_trace_pc_guard(uint32_t *guard) {}
+__attribute__((weak)) void __sanitizer_cov_8bit_counters_init(char *start, char *stop) {}
+__attribute__((weak)) void __sanitizer_cov_pcs_init(const uintptr_t *beg, const uintptr_t *end) {}

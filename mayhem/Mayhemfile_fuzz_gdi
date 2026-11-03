@@ -1,0 +1,8 @@
+project: savantenvs/flycast
+target: fuzz_gdi
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_gdi/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_gdi
+    libfuzzer: true
